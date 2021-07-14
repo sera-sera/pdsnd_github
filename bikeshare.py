@@ -4,7 +4,10 @@ import numpy as np
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
-              'washington': 'washington.csv' }
+              'washington': 'washington.csv',
+              'argentine' : 'argentine.csv',
+              'brazil' : 'brazil.csv'
+              }
 months = ['january', 'february', 'march', 'april', 'may', 'june']
 days = ['monday','tuesday','wednesday','thursday','friday','saturday','sunday']
 def get_filters():
