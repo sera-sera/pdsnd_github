@@ -4,11 +4,19 @@ import numpy as np
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
+<<<<<<< HEAD
               'washington': 'washington.csv',
               'argentine' : 'argentine.csv',
               'brazil' : 'brazil.csv'
               }
 months = ['january', 'february', 'march', 'april', 'may', 'june']
+||||||| fda27aa
+              'washington': 'washington.csv' }
+months = ['january', 'february', 'march', 'april', 'may', 'june']
+=======
+              'washington': 'washington.csv' }
+months = ['january', 'february', 'march', 'april', 'may', 'june','july','august','october','november','september','december']
+>>>>>>> refactoring
 days = ['monday','tuesday','wednesday','thursday','friday','saturday','sunday']
 def get_filters():
     """
